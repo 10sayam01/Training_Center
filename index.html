@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IAS – IT Academy & Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Barlow Condensed (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!--  NAVBAR  -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-brand">
+        <img src="p1.png" alt="IAS Logo" class="nav-logo" />
+        <span class="nav-name">IT Academy <em>&amp;</em> Solutions</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"    class="nav-link active">Home</a></li>
+        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta-btn">Enroll Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg" style="background-image: url('p2.png');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-grid-lines"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Professional IT Certification Training
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-title-line">Cisco Certified</span>
+        <span class="hero-title-line accent">Network Associate</span>
+        <span class="hero-title-line">&amp; IT Training Center</span>
+      </h1>
+      <p class="hero-subtitle">
+        Build your career in Networking, Windows Server Administration,
+        Virtualization, and Cybersecurity with industry-focused training.
+      </p>
+      <div class="hero-stats">
+        <div class="stat"><strong>500+</strong><span>Graduates</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>5</strong><span>Courses</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>100%</strong><span>Practical Labs</span></div>
+      </div>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-rocket"></i> Enroll Now
+        </a>
+        <a href="#courses" class="btn-outline">
+          <i class="fas fa-book-open"></i> View Courses
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!--  FEATURE STRIP  -->
+  <section class="feature-strip">
+    <div class="strip-inner">
+      <div class="strip-item"><i class="fas fa-chalkboard-teacher"></i><span>Expert Instructors</span></div>
+      <div class="strip-item"><i class="fas fa-flask"></i><span>Hands-On Labs</span></div>
+      <div class="strip-item"><i class="fas fa-certificate"></i><span>Industry Certification</span></div>
+      <div class="strip-item"><i class="fas fa-briefcase"></i><span>Career Support</span></div>
+      <div class="strip-item"><i class="fas fa-tags"></i><span>Affordable Fees</span></div>
+    </div>
+  </section>
+
+  <!-- COURSES  -->
+  <section id="courses" class="courses-section">
+    <div class="section-header">
+      <span class="section-tag">What We Offer</span>
+      <h2>Professional <span class="accent">Courses</span></h2>
+      <p>Industry-aligned programs designed to make you job-ready from day one.</p>
+    </div>
+
+    <div class="courses-grid">
+
+      <div class="course-card" data-index="1">
+        <div class="course-card-top">
+          <div class="course-icon-wrap">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <span class="course-number">01</span>
+        </div>
+        <div class="course-card-body">
+          <h3>CCNA</h3>
+          <p class="course-full-name">Cisco Certified Network Associate</p>
+          <p class="course-desc">Learn networking fundamentals, switching, routing, VLANs, ACLs, NAT, DHCP, OSPF, and enterprise networking concepts.</p>
+          <ul class="course-tags">
+            <li>Routing &amp; Switching</li>
+            <li>VLANs</li>
+            <li>OSPF</li>
+          </ul>
+        </div>
+        <div class="course-card-footer">
+          <div class="course-meta">
+            <span class="meta-item"><i class="fas fa-clock"></i> 3 Months</span>
+            <span class="meta-item fee"><i class="fas fa-bangladeshi-taka-sign"></i> 8,000 BDT</span>
+          </div>
+          <a href="#contact" class="card-btn">Enroll <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="course-card" data-index="2">
+        <div class="course-card-top">
+          <div class="course-icon-wrap">
+            <i class="fas fa-server"></i>
+          </div>
+          <span class="course-number">02</span>
+        </div>
+        <div class="course-card-body">
+          <h3>Windows Server Admin</h3>
+          <p class="course-full-name">Windows Server Administration</p>
+          <p class="course-desc">Learn Active Directory, DNS, DHCP, Group Policy, User Management, and Windows Server deployment.</p>
+          <ul class="course-tags">
+            <li>Active Directory</li>
+            <li>Group Policy</li>
+            <li>DNS / DHCP</li>
+          </ul>
+        </div>
+        <div class="course-card-footer">
+          <div class="course-meta">
+            <span class="meta-item"><i class="fas fa-clock"></i> 3 Months</span>
+            <span class="meta-item fee"><i class="fas fa-bangladeshi-taka-sign"></i> 7,000 BDT</span>
+          </div>
+          <a href="#contact" class="card-btn">Enroll <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="course-card" data-index="3">
+        <div class="course-card-top">
+          <div class="course-icon-wrap">
+            <i class="fas fa-shield-halved"></i>
+          </div>
+          <span class="course-number">03</span>
+        </div>
+        <div class="course-card-body">
+          <h3>Windows Server Security</h3>
+          <p class="course-full-name">Server Hardening &amp; Protection</p>
+          <p class="course-desc">Learn server hardening, security policies, auditing, access control, and infrastructure protection.</p>
+          <ul class="course-tags">
+            <li>Hardening</li>
+            <li>Auditing</li>
+            <li>Access Control</li>
+          </ul>
+        </div>
+        <div class="course-card-footer">
+          <div class="course-meta">
+            <span class="meta-item"><i class="fas fa-clock"></i> 2 Months</span>
+            <span class="meta-item fee"><i class="fas fa-bangladeshi-taka-sign"></i> 6,000 BDT</span>
+          </div>
+          <a href="#contact" class="card-btn">Enroll <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="course-card" data-index="4">
+        <div class="course-card-top">
+          <div class="course-icon-wrap">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <span class="course-number">04</span>
+        </div>
+        <div class="course-card-body">
+          <h3>Virtualization</h3>
+          <p class="course-full-name">Virtualization Technologies</p>
+          <p class="course-desc">Learn VMware, Hyper-V, virtual machines, resource management, and virtualization concepts.</p>
+          <ul class="course-tags">
+            <li>VMware</li>
+            <li>Hyper-V</li>
+            <li>Resource Mgmt</li>
+          </ul>
+        </div>
+        <div class="course-card-footer">
+          <div class="course-meta">
+            <span class="meta-item"><i class="fas fa-clock"></i> 2 Months</span>
+            <span class="meta-item fee"><i class="fas fa-bangladeshi-taka-sign"></i> 5,000 BDT</span>
+          </div>
+          <a href="#contact" class="card-btn">Enroll <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="course-card featured" data-index="5">
+        <div class="featured-badge">Most Popular</div>
+        <div class="course-card-top">
+          <div class="course-icon-wrap">
+            <i class="fas fa-lock"></i>
+          </div>
+          <span class="course-number">05</span>
+        </div>
+        <div class="course-card-body">
+          <h3>Cybersecurity</h3>
+          <p class="course-full-name">Cybersecurity Fundamentals</p>
+          <p class="course-desc">Learn ethical hacking concepts, security principles, threat analysis, vulnerability assessment, and defensive techniques.</p>
+          <ul class="course-tags">
+            <li>Ethical Hacking</li>
+            <li>Threat Analysis</li>
+            <li>Pen Testing</li>
+          </ul>
+        </div>
+        <div class="course-card-footer">
+          <div class="course-meta">
+            <span class="meta-item"><i class="fas fa-clock"></i> 3 Months</span>
+            <span class="meta-item fee"><i class="fas fa-bangladeshi-taka-sign"></i> 10,000 BDT</span>
+          </div>
+          <a href="#contact" class="card-btn">Enroll <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT  -->
+  <section id="about" class="about-section">
+    <div class="about-bg-shape"></div>
+    <div class="about-inner">
+      <div class="about-left">
+        <div class="about-logo-wrap">
+          <img src="p1.png" alt="IAS Logo" />
+          <div class="logo-ring"></div>
+          <div class="logo-ring ring2"></div>
+        </div>
+        <div class="about-mission-box">
+          <h4><i class="fas fa-bullseye"></i> Our Mission</h4>
+          <p>Provide practical, industry-standard IT training that helps students build successful careers in technology.</p>
+        </div>
+        <div class="about-vision-box">
+          <h4><i class="fas fa-eye"></i> Our Vision</h4>
+          <p>Become one of the leading technology training institutes by producing skilled, job-ready IT professionals.</p>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <div class="section-header left-aligned">
+          <span class="section-tag">Who We Are</span>
+          <h2>Building the Next Generation of <span class="accent">IT Professionals</span></h2>
+          <p>A professional IT training center dedicated to preparing students and professionals for real-world networking, server administration, virtualization, and cybersecurity careers.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-item"><i class="fas fa-check-circle"></i><span>Industry-Focused Curriculum</span></div>
+          <div class="why-item"><i class="fas fa-check-circle"></i><span>Hands-On Practical Labs</span></div>
+          <div class="why-item"><i class="fas fa-check-circle"></i><span>Experienced Trainers</span></div>
+          <div class="why-item"><i class="fas fa-check-circle"></i><span>Career Guidance</span></div>
+          <div class="why-item"><i class="fas fa-check-circle"></i><span>Affordable Course Fees</span></div>
+          <div class="why-item"><i class="fas fa-check-circle"></i><span>Professional Learning Environment</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2>Start Your <span class="accent">Journey Today</span></h2>
+      <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+    </div>
+
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="info-card">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+8801630203930</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>mdsayammunshi27@gmail.com</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-location-dot"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Bangladesh</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-globe"></i>
+          <div>
+            <h4>Website</h4>
+            <p>www.ias-academy.com</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Full Name *</label>
+            <input type="text" id="fname" name="fname" placeholder="Your full name" />
+            <span class="error-msg" id="fnameErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" />
+            <span class="error-msg" id="emailErr"></span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="+880 1X XXXX XXXX" />
+            <span class="error-msg" id="phoneErr"></span>
+          </div>
+          <div class="form-group">
+            <label for="course">Course Interested In *</label>
+            <select id="course" name="course">
+              <option value="">— Select a Course —</option>
+              <option value="ccna">CCNA (8,000 BDT)</option>
+              <option value="server-admin">Windows Server Administration (7,000 BDT)</option>
+              <option value="server-sec">Windows Server Security (6,000 BDT)</option>
+              <option value="virtualization">Virtualization Technologies (5,000 BDT)</option>
+              <option value="cybersecurity">Cybersecurity Fundamentals (10,000 BDT)</option>
+            </select>
+            <span class="error-msg" id="courseErr"></span>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Any questions or additional information…"></textarea>
+        </div>
+        <button type="submit" class="btn-primary submit-btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+        <div class="form-success" id="formSuccess">
+          <i class="fas fa-circle-check"></i> Thank you! We'll be in touch soon.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--  FOOTER  -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="p1.png" alt="IAS Logo" class="footer-logo" />
+        <p>IAS – IT Academy &amp; Solutions</p>
+        <small>Learn · Practice · Achieve</small>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-courses">
+        <h4>Our Courses</h4>
+        <ul>
+          <li><a href="#courses">CCNA Training</a></li>
+          <li><a href="#courses">Windows Server Admin</a></li>
+          <li><a href="#courses">Server Security</a></li>
+          <li><a href="#courses">Virtualization</a></li>
+          <li><a href="#courses">Cybersecurity</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-phone"></i> +8801630203930</p>
+        <p><i class="fas fa-envelope"></i> mdsayammunshi27@gmail.com.com</p>
+        <p><i class="fas fa-location-dot"></i> Bangladesh</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 IAS – IT Academy &amp; Solutions. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
